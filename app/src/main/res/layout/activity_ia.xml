@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtTituloIA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_ia"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_primary"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta_ia"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/edtPreferencias"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="@string/hint_preferencias"
+            android:inputType="textMultiLine|textCapSentences"
+            android:gravity="top"
+            android:padding="12dp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:id="@+id/btnConsultarIA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/consultar_ia"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/txtTituloRespuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_respuesta"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_primary"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/txtRespuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/respuesta_ia"
+            android:textSize="16sp"
+            android:padding="18dp"
+            android:background="@color/white"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+

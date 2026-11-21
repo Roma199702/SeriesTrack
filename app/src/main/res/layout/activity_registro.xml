@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtTituloRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_registro"
+            style="@style/TextoTitulo"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="@string/nombre_completo"
+            android:inputType="textPersonName"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/edtCorreoRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="@string/correo"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/edtContrasenaRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="@string/contrasena"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/edtConfirmarContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="@string/confirmar_contrasena"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta_genero"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <RadioGroup
+            android:id="@+id/rgGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbAccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accion" />
+
+            <RadioButton
+                android:id="@+id/rbComedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/comedia" />
+
+            <RadioButton
+                android:id="@+id/rbDrama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drama" />
+
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/chkTerminos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aceptar_terminos"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrarse"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+

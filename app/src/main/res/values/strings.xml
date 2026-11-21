@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SeriesTrack</string>
+    <string name="nombre_app">SeriesTrack</string>
+    <string name="logo_description">Logo de SeriesTrack con una televisión y un botón de reproducción</string>
+
+    <!-- Inicio de sesión -->
+    <string name="bienvenida">¡Bienvenido!</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+
+    <!-- Registro -->
+    <string name="titulo_registro">Crear cuenta</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="confirmar_contrasena">Confirmar contraseña</string>
+    <string name="pregunta_genero">¿Qué tipo de series prefieres?</string>
+    <string name="accion">Acción</string>
+    <string name="comedia">Comedia</string>
+    <string name="drama">Drama</string>
+    <string name="aceptar_terminos">Acepto los términos y condiciones</string>
+    <string name="registrarse">Registrarse</string>
+
+    <!-- Lista de series -->
+    <string name="titulo_lista">Mis series</string>
+    <string name="agregar_serie">Agregar serie</string>
+    <string name="serie_stranger">Stranger Things\nGénero: Ciencia ficción\nEstado: En emisión</string>
+    <string name="serie_walking">The Walking Dead\nGénero: Terror\nEstado: Finalizada</string>
+    <string name="serie_breaking">Breaking Bad\nGénero: Drama\nEstado: Finalizada</string>
+    <string name="ver_detalles">Ver detalles</string>
+
+    <!-- Agregar serie -->
+    <string name="titulo_agregar">Agregar serie</string>
+    <string name="nombre_serie">Nombre de la serie</string>
+    <string name="genero">Género</string>
+    <string name="cantidad_temporadas">Cantidad de temporadas</string>
+    <string name="ultimo_capitulo">Último capítulo visto</string>
+    <string name="estado_serie">Estado de la serie</string>
+    <string name="en_emision">En emisión</string>
+    <string name="finalizada">Finalizada</string>
+    <string name="pausada">Pausada</string>
+    <string name="guardar_serie">Guardar serie</string>
+
+    <!-- Detalle de serie -->
+    <string name="titulo_detalle">Detalle de serie</string>
+    <string name="nombre_detalle">Stranger Things</string>
+    <string name="genero_detalle">Género: Ciencia ficción</string>
+    <string name="temporadas_detalle">Temporadas: 4</string>
+    <string name="capitulo_detalle">Último capítulo visto: Temporada 2, capítulo 5</string>
+    <string name="estado_detalle">Estado: En emisión</string>
+    <string name="editar_serie">Editar serie</string>
+    <string name="eliminar_serie">Eliminar serie</string>
+    <string name="marcar_capitulo">Marcar capítulo como visto</string>
+
+    <!-- Recomendaciones IA -->
+    <string name="titulo_ia">Recomendaciones IA</string>
+    <string name="pregunta_ia">Cuéntanos qué tipo de series te gustan:</string>
+    <string name="hint_preferencias">Ejemplo: Me gustan las series de acción, misterio y ciencia ficción...</string>
+    <string name="consultar_ia">Buscar recomendaciones</string>
+    <string name="titulo_respuesta">Recomendación:</string>
+    <string name="respuesta_ia">Según tus preferencias, te recomendamos Dark. Es una serie de misterio y ciencia ficción que podría interesarte.</string>
+
+</resources>
+
+

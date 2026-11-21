@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtTituloDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_detalle"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_primary"
+            android:gravity="center"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:id="@+id/txtNombreDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_detalle"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtGeneroDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/genero_detalle"
+            android:textSize="17sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtTemporadasDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/temporadas_detalle"
+            android:textSize="17sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtCapituloDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/capitulo_detalle"
+            android:textSize="17sp"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtEstadoDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/estado_detalle"
+            android:textSize="17sp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnEditarSerie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editar_serie"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/btnEliminarSerie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eliminar_serie"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnMarcarCapitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/marcar_capitulo"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>
